@@ -1,0 +1,174 @@
+/* ==========================================================================
+   Área Principal
+   ========================================================================== */
+.main-area {
+    padding-left: 32px;
+    padding-right: 32px;
+    background: transparent !important;
+}
+
+.card {
+    background-color: #0f728c !important;
+    background: #0f728c !important;
+    color: white;
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card *:not(.stat-icon) {
+    background: transparent !important;
+}
+
+.card .table {
+    background-color: transparent !important;
+}
+
+.card h5,
+.card h6,
+.card p,
+.card span,
+.card div:not(.stat-icon),
+.card small,
+.card label {
+    color: #FFFFFF !important;
+}
+
+.input-group-text {
+    color: #FFFFFF !important;
+}
+
+.stat-card .stat-icon {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 28px;
+    flex-shrink: 0;
+}
+
+.stat-card .stat-icon i {
+    font-size: 28px;
+}
+
+.stat-card .stat-icon.bg-primary {
+    background-color: #0066cc !important;
+}
+
+.stat-card .stat-icon.bg-info {
+    background-color: #5AC3E5 !important;
+}
+
+.stat-card .stat-icon.stat-icon--accent {
+    background-color: #E6925E !important;
+}
+
+.stat-card .stat-icon.bg-success {
+    background-color: #0a8754 !important;
+}
+
+.stat-card {
+    padding: 1.25rem !important;
+}
+
+.stat-card h3 {
+    font-size: 2rem;
+    color: #FFFFFF !important;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.stat-card .text-white,
+.stat-card .text-white-50,
+.stat-card small {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 0.85rem;
+}
+
+.stat-card .text-success {
+    color: #4ade80 !important;
+}
+
+/* ==========================================================================
+   Tabelas
+   ========================================================================== */
+.table {
+    --bs-table-bg: transparent; 
+    --bs-table-color: #FFFFFF;
+    --bs-table-hover-bg: rgba(255, 255, 255, 0.1);
+    --bs-table-striped-color: #FFFFFF;
+}
+
+.table th {
+    color: #FFFFFF !important;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.table td {
+    color: #FFFFFF !important;
+}
+
+.table th, .table td {
+    padding: 1rem;
+    border-color: var(--dasa-border);
+}
+
+.table tbody tr td,
+.table tbody tr th,
+.table thead tr th {
+    color: #FFFFFF !important;
+}
+
+/* ==========================================================================
+   Legenda de Gráficos
+   ========================================================================== */
+.color-indicator {
+    background-color: inherit !important;
+    opacity: 1 !important;
+}
+
+.legend-item {
+    white-space: nowrap;
+}
+
+/* ==========================================================================
+   Form Controls - Dropdown Options
+   ========================================================================== */
+select,
+.form-select,
+.card select,
+.card .form-select {
+    background-color: #0f728c !important;
+    background: #0f728c !important;
+    color: #FFFFFF !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+select option,
+.form-select option,
+.card select option,
+.card .form-select option,
+option {
+    background-color: #0f728c !important;
+    background: #0f728c !important;
+    color: #FFFFFF !important;
+}
+
+select option:hover,
+.form-select option:hover,
+select option:checked,
+.form-select option:checked,
+select option[selected] {
+    background-color: #0D6EFD !important;
+    background: linear-gradient(#0D6EFD, #0D6EFD) !important;
+}
+
